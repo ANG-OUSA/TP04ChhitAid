@@ -1,7 +1,6 @@
 import OUSA_Work.*;
 
 import java.util.Scanner;
-import OUSA_Work.*;
 public class ChallengExercise {
       int ch;
       int Display(int n){
