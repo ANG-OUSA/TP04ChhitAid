@@ -1,5 +1,6 @@
+package OUSA_Work;
 
-import OUSA_Work.*;
+// import OUSA_Work.*;
 import java.util.Scanner;
 public class ChallengExercise {
       int ch;
@@ -23,13 +24,16 @@ public class ChallengExercise {
             do{
                   n = C.Display(C.ch);
                   switch(n){
-                        case 1: OUSA_Work.TP04_1.main(null); break;
+                        
+                        case 1: TP04_1.main(null); break;
+
                         case 2: OUSA_Work.TP004_2.main(null); break;
-                        case 3: OUSA_Work.TP04_3.main(null); break;
-                        case 4: OUSA_Work.TP04_4.main(null); break;
-                        case 5: OUSA_Work.TP04_5.main(null); break;
-                        case 6: OUSA_Work.TP04_6.main(null); break;
-                        case 7: OUSA_Work.TP04_7.main(null); break;
+
+                        case 3: TP04_3.main(null); break;
+                        case 4: TP04_4.main(null); break;
+                        case 5: TP04_5.main(null); break;
+                        case 6: TP04_6.main(null); break;
+                        case 7: TP04_7.main(null); break;
                   }
 
             }while(n != 0);
